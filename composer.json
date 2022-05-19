@@ -1,0 +1,24 @@
+{
+    "name": "wymarzonylogin/troglo-templates",
+    "type": "library",
+    "description": "Simple PHP templates",
+    "keywords": ["php", "templates"],
+    "homepage": "https://wymarzonylog.in",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Smacznego",
+            "email": "smacznego@wymarzonylog.in",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "WymarzonyLogin\\TrogloTemplates\\": "src/"
+        }
+    }
+}
+
